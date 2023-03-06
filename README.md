@@ -1,9 +1,7 @@
 # **Credit Risk Analysis: A Machine Learning Project**
 
 ## *Project Overview*
-The purpose of this project was to create a machine learning solution that would be able to predict credit risk. 
-
-More specifically, the machine learning model that we were looking for needed to be one that able to accurately classify if a loan is **good** or **risky**. Thus, we implemented six different machine learning models in order to assess if any of them should be used to predict credit risk. 
+The purpose of this project was to create a machine learning solution that would be able to predict credit risk. Specifically, the machine learning model that we were looking for needed to be one that able to accurately classify if a loan is **good** or **risky**. Thus, we implemented six different machine learning models in order to assess if any of them should be used to predict credit risk. 
 
 ---
 ## *Results*
@@ -20,22 +18,23 @@ For each model,  we first created dummies for the data that was in a string form
 * Precision: **0.99** (Total) | **0.01** (High Risk), **1.00** (Low Risk).
 * Recall: **0.60** (Total) | **0.71** (High Risk), **0.60** (Low Risk).
 
-[IMAGE HERE]
+![1](https://user-images.githubusercontent.com/113153777/223010469-f49b8d3f-5c36-4781-ab9b-987a4e62d602.png)
 
 ### *2. SMOTE Oversampling*
 * Balanced accuracy score: **0.66**
 * Precision: **0.99** (Total) | **0.01** (High Risk), **1.00** (Low Risk).
 * Recall: **0.69** (Total) | **0.63** (High Risk), **0.69** (Low Risk).
 
-[IMAGE HERE]
-[IMAGE HERE]
+![2-1](https://user-images.githubusercontent.com/113153777/223010552-38af9c77-9848-4c54-9afd-12517222ad4a.png)
+
+![2-2](https://user-images.githubusercontent.com/113153777/223010580-eee1e9c8-2f15-415b-ac0e-40bfe1c43ad1.png)
 
 ### *3. Cluster Centroids Algorithm (Undersampling)*
 * Balanced accuracy score: **0.54**
 * Precision: **0.99** (Total) | **0.01** (High Risk), **1.00** (Low Risk).
 * Recall: **0.40** (Total) | **0.69** (High Risk), **0.40** (Low Risk).
 
-[IMAGE HERE]
+![3](https://user-images.githubusercontent.com/113153777/223010698-e1be7397-db42-46ce-84a4-c6fd62206761.png)
 
 ### *4. SMOTEENN Algorithm (Combination Sampling)*
 
@@ -43,17 +42,27 @@ For each model,  we first created dummies for the data that was in a string form
 * Precision: **0.99** (Total) | **0.01** (High Risk), **1.00** (Low Risk).
 * Recall: **0.57** (Total) | **0.72** (High Risk), **0.57** (Low Risk).
 
-[IMAGE HERE]
+![4-1](https://user-images.githubusercontent.com/113153777/223010783-69c94af9-0be4-49e7-b0bc-1ba6cfb15222.png)
+
+![4-2](https://user-images.githubusercontent.com/113153777/223010801-12a951ba-603d-4c8a-8c76-15b7e03c8e0b.png)
 
 ### *5. Balanced Random Forest Classifier*
 * Balanced accuracy score: **0.79**
 * Precision: **0.99** (Total) | **0.03** (High Risk), **1.00** (Low Risk).
 * Recall: **0.87** (Total) | **0.70** (High Risk), **0.87** (Low Risk).
 
+![image](https://user-images.githubusercontent.com/113153777/223010945-9210603e-f411-4aa4-a535-803c474b0548.png)
+
+![image](https://user-images.githubusercontent.com/113153777/223011036-91af2444-87bd-4120-8faf-69104ecd1eb4.png)
+
 ### *6. Easy Ensemble AdaBoost Classifier*
 * Balanced accuracy score: **0.93**
 * Precision: **0.99** (Total) | **0.09** (High Risk), **1.00** (Low Risk).
 * Recall: **0.94** (Total) | **0.92** (High Risk), **0.94** (Low Risk).
+
+![image](https://user-images.githubusercontent.com/113153777/223011128-0a133d0d-b9eb-4bda-b49b-32750d9c5db2.png)
+
+![image](https://user-images.githubusercontent.com/113153777/223011187-0504ef0c-cd8c-4625-9646-85c9730d45bc.png)
 
 ---
 ## *Summary*
