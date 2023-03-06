@@ -6,11 +6,11 @@ The purpose of this project was to create a machine learning solution that would
 ---
 ## *Results*
 
-As stated above, **six** different machine learning models were tested with the purpose of identifying the best way to predict credit risk. Our target was the **["loan_status"]** column, which divides the loans into two categories: high risk and low risk. As credit risk is usually an imbalanced classification problem (given that, in most cases, the amount of good loans outweigh the number of risky loans), each of these models handles the data in a different way. Thus, each model had varying accuracy, precision and recall scores, which are described section that follows.
+As stated above, **six** different machine learning models were tested with the purpose of identifying the best way to predict credit risk. Our target was the **["loan_status"]** column, which divides the loans into two categories: high risk and low risk. As credit risk is usually an imbalanced classification problem (given that, in most cases, the amount of good loans outweigh the number of risky loans), each of these models handles the data in a different way. Thus, each model had varying accuracy, precision and recall scores, which are described in the section that follows.
 
 ---
 ## *The models*
-For each model,  we first created dummies for the data that was in a string format, and then proceeded to split our data into training and testing. These were the results:
+For each model,  we first created dummies for the data that was in string format, and then proceeded to split our data into training and testing. These were the results:
 
 ### *1. Naive Random Oversampling*
 
@@ -67,7 +67,7 @@ For each model,  we first created dummies for the data that was in a string form
 ---
 ## *Summary*
 
-If we observed the results of each model, we can clearly see that the different ways in which the data is handled had significant impact on their individual performance. 
+If we observe the results of each model, we can clearly see that the different ways in which the data is handled had significant impact on their individual performance. 
 
 When it came to models 1-2, which used oversampling, the results were underwhelming, as these models had an accuracy score of 0.66. Models 3 and 4 performed even worse, with a balanced accuracy score of 0.54. For all of these models, precision was very low for high risk loans, while the recall score was average for both types of loans.
 
